@@ -16,8 +16,6 @@ def login():
                 return {'status': 'fail'}
             else:
                 return {'status': 'ok'}
-        if(len(result) == 0):
-            message = 'Invalid user'
 
     return {'status': 'fail'}
 
